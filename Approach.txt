@@ -1,0 +1,8 @@
+Approach:
+Solution.buildRequestResponse() : This method accepts a String url as input parameter and processes the output as required.It makes an HTTP GET call to the REST url 
+
+Error handling:
+If url is null or empty string, throws a runtime exception with error message 'Please enter a valid URL.'
+If http response code is not 200 OK, throws a runtime exception with error message 'Sorry! This service is currently not available. HttpResponseCode: <responsecode>'.
+If the URL is not adhering to correct format, throws a MalformedURLException with error message 'The URL is malformed. Please enter a valid url.';
+Other exceptions considered here are ProtocolException, IOException, ParseException,
