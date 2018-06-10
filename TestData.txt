@@ -1,0 +1,49 @@
+Test Data used for verifying the code is as follows: 
+
+Test 1:
+Sample url: https://jsonplaceholder.typicode.com/users/
+Sample output: 
+Displaying all of the keys for each JSON document :
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+website address phone name company id email username : Sum of numbers = 0
+Running Total = 0
+Note: The above test url does not contain a key "numbers", which is why the sum and running total are 0.
+
+Test 2:
+Sample input JSON Array used for testing:
+[
+	{
+		"id":1, 
+		"name":"john",
+		"numbers":[3,5,7,15],
+		"status":"married"
+	},
+	{
+		"id":2, 
+		"name":"mary",
+		"numbers":[6,8,10,2],
+		"status":"married"
+	},
+	{
+		"id":3, 
+		"name":"julie",
+		"numbers":[10,3,8,9],
+		"status":"single"
+	}
+]
+
+Sample output:
+Displaying all of the keys for each JSON document :
+name numbers id status : Sum of numbers = 30
+name numbers id status : Sum of numbers = 26
+name numbers id status : Sum of numbers = 30
+Running Total = 86
+
